@@ -24,7 +24,7 @@ A simple temperature controller built with **React** and **Vite** as a beginner-
 Clone the repository:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/mohammad-taghinejad/React-Temperature-Controller.git
 ```
 
 Navigate to the project directory:
