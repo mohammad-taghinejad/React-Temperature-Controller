@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 
+import Button from "./components/Button/Button.jsx";
+
 function App() {
   const [temp, setTemp] = useState(16);
 
@@ -18,12 +20,8 @@ function App() {
       <main id="main" className="">
         <p id="temp">{temp}C</p>
         <div id="buttons">
-          <button id="decrease" onClick={decreaseTemp}>
-            Decrease
-          </button>
-          <button id="increase" onClick={increaseTemp}>
-            Increase
-          </button>
+          <Button id="decrease" label="Decrease" clickHandler={decreaseTemp} />
+          <Button  id="increase" label="Increase" clickHandler={increaseTemp} />
         </div>
       </main>
       <footer></footer>
